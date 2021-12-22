@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: #292929;
+    font-family: 'Open Sans',sans-serif;
+}
+.skillbars-wrapper{
+    width: 100%;
+    max-width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.skillbar-container{
+    margin-bottom: 10px;
+}
+.skillbar-title{
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+.skillbar{
+    width: 100%;
+    max-width: 600px;
+    height: 25px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.2);
+    overflow: hidden;
+}
+.skillbar-value{
+    height: 25px;
+    width: calc(var(--n) * 1%);
+    float: left;
+    background: rgba(255,255,255,0.75);
+}
+.value-0{
+    --n: 0;
+}
+.value-10{
+    --n: 10;
+}
+.value-20{
+    --n: 20;
+}
+.value-30{
+    --n: 30;
+}
+.value-40{
+    --n: 40;
+}
+.value-50{
+    --n: 50;
+}
+.value-60{
+    --n: 60;
+}
+.value-70{
+    --n: 70;
+}
+.value-80{
+    --n: 80;
+}
+.value-90{
+    --n: 90;
+}
+.value-100{
+    --n: 100;
+}
